@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Internal Markdown documents (local only); keep the project README public
+*.[mM][dD]
+!/README.md
