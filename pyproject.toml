@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "options-pricing-volatility-engine"
+version = "0.1.0"
+description = "European option prices, Greeks, and European/American binomial trees"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+options-pricing-demo = "options_pricing.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
